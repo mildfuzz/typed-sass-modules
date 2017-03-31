@@ -1,11 +1,23 @@
 {
   "name": "typed-sass-modules",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Typescript definitions for SASS files",
+  "bin": {
+    "sasstsm": "cli.js"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/keithbloom/typed-sass-modules.git"
+  },
+  "homepage": "https://github.com/keithbloom/typed-sass-modules#readme",
+  "keywords": [
+    "typed",
+    "sass",
+    "modules"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "4.5.2",
+    "typed-css-modules": "0.1.10"
+  }
 }
